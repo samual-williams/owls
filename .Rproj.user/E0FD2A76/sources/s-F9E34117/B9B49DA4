@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1550129996663.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "B9B49DA4",
+    "lastKnownWriteTime" : 1550138718,
+    "last_content_update" : 1550138718808,
+    "path" : "~/Dropbox/R_working_dropbox/owls/Temp.R",
+    "project_path" : "Temp.R",
+    "properties" : {
+        "cursorPosition" : "73,0",
+        "scrollLine" : "63",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
