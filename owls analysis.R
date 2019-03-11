@@ -1402,7 +1402,7 @@ p
 
 p7 <- p
 
-
+ 
 # Combine plots
 plot2 <- plot_grid(p4, p5, p6, p7, ncol = 1, labels = "auto")
 plot2
