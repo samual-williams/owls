@@ -1220,7 +1220,7 @@ p <- ggplot(e, aes(x = stage, y = percent,fill = afraid.of.owls)) +
   geom_bar(stat = "identity") + 
   theme_minimal() + 
   theme(panel.border = element_blank(), panel.grid.major = element_blank(), panel.grid.minor = element_blank()) + 
-  scale_fill_manual(values = cbp3, name = "Which of best describes \nyour response to seeing an \nowl?", labels = c("Terrified", "Very afriad", "Not afraid")) + 
+  scale_fill_manual(values = cbp3, name = "Which best describes \nyour response to seeing an \nowl?", labels = c("Terrified", "Very afraid", "Not afraid")) + 
   ylim(0,100) +
   xlab("Group") + ylab("Percent") +
   scale_x_discrete(labels=c("Before \npresentation", "After \npresentation", "Control")) +
@@ -1407,3 +1407,4 @@ p7 <- p
 plot2 <- plot_grid(p4, p5, p6, p7, ncol = 1, labels = "auto")
 plot2
 save_plot("plot2.png", plot2, dpi = 500, base_width = 9, base_height = 9)
+
